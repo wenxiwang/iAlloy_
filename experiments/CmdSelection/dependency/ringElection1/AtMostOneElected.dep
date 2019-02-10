@@ -1,0 +1,14 @@
+assert:AtMostOneElected -1493379885
+check:AtMostOneElected -1824459178
+fact:defineElected 475623821
+fact:ring -2001754897
+fact:traces -1758414968
+fun:PO/prevs 1449693714
+fun:TO/first 175467795
+fun:TO/prev 1065382704
+pred:init -1442533887
+pred:skip -787827000
+pred:step 1375336075
+sig:Ord 1217072465
+sig:Process -1085924597
+sig:Time -848251610

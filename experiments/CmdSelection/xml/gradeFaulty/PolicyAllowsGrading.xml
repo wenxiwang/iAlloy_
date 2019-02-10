@@ -1,0 +1,125 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run PolicyAllowsGrading for 100" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/gradeFaulty/v1/gradeFaulty.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Student" ID="4" parentID="5">
+   <atom label="Student$0"/>
+   <atom label="Student$1"/>
+   <atom label="Student$2"/>
+   <atom label="Student$3"/>
+   <atom label="Student$4"/>
+   <atom label="Student$5"/>
+   <atom label="Student$6"/>
+   <atom label="Student$7"/>
+   <atom label="Student$8"/>
+   <atom label="Student$9"/>
+   <atom label="Student$10"/>
+   <atom label="Student$11"/>
+   <atom label="Student$12"/>
+   <atom label="Student$13"/>
+   <atom label="Student$14"/>
+   <atom label="Student$15"/>
+   <atom label="Student$16"/>
+   <atom label="Student$17"/>
+   <atom label="Student$18"/>
+   <atom label="Student$19"/>
+   <atom label="Student$20"/>
+   <atom label="Student$21"/>
+   <atom label="Student$22"/>
+   <atom label="Student$23"/>
+   <atom label="Student$24"/>
+   <atom label="Student$25"/>
+   <atom label="Student$26"/>
+   <atom label="Student$27"/>
+</sig>
+
+<sig label="this/Professor" ID="6" parentID="5">
+   <atom label="Professor$0"/>
+</sig>
+
+<sig label="this/Person" ID="5" parentID="2" abstract="yes">
+</sig>
+
+<sig label="this/Class" ID="7" parentID="2">
+   <atom label="Class$0"/>
+</sig>
+
+<field label="assistant_for" ID="8" parentID="7">
+   <tuple> <atom label="Class$0"/> <atom label="Student$27"/> </tuple>
+   <types> <type ID="7"/> <type ID="4"/> </types>
+</field>
+
+<field label="instructor_of" ID="9" parentID="7">
+   <tuple> <atom label="Class$0"/> <atom label="Professor$0"/> </tuple>
+   <types> <type ID="7"/> <type ID="6"/> </types>
+</field>
+
+<sig label="this/Assignment" ID="10" parentID="2">
+   <atom label="Assignment$0"/>
+   <atom label="Assignment$1"/>
+</sig>
+
+<field label="associated_with" ID="11" parentID="10">
+   <tuple> <atom label="Assignment$0"/> <atom label="Class$0"/> </tuple>
+   <tuple> <atom label="Assignment$1"/> <atom label="Class$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="7"/> </types>
+</field>
+
+<field label="assigned_to" ID="12" parentID="10">
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$0"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$1"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$2"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$3"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$4"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$5"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$6"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$7"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$8"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$9"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$10"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$11"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$12"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$13"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$14"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$15"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$16"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$17"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$18"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$19"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$20"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$21"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$22"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$23"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$24"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$25"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$26"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$27"/> </tuple>
+   <tuple> <atom label="Assignment$1"/> <atom label="Student$26"/> </tuple>
+   <types> <type ID="10"/> <type ID="4"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$PolicyAllowsGrading_s" ID="13">
+   <tuple> <atom label="Student$27"/> </tuple>
+   <types> <type ID="5"/> </types>
+</skolem>
+
+<skolem label="$PolicyAllowsGrading_a" ID="14">
+   <tuple> <atom label="Assignment$1"/> </tuple>
+   <types> <type ID="10"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

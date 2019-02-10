@@ -1,0 +1,46 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Check BelowToo for 60 expect 1" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/ceilingsAndFloors/v1/ceilingsAndFloors.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Platform" ID="4" parentID="2">
+   <atom label="Platform$0"/>
+   <atom label="Platform$1"/>
+</sig>
+
+<sig label="this/Man" ID="5" parentID="2">
+   <atom label="Man$0"/>
+   <atom label="Man$1"/>
+</sig>
+
+<field label="ceiling" ID="6" parentID="5">
+   <tuple> <atom label="Man$0"/> <atom label="Platform$0"/> </tuple>
+   <tuple> <atom label="Man$1"/> <atom label="Platform$0"/> </tuple>
+   <types> <type ID="5"/> <type ID="4"/> </types>
+</field>
+
+<field label="floor" ID="7" parentID="5">
+   <tuple> <atom label="Man$0"/> <atom label="Platform$0"/> </tuple>
+   <tuple> <atom label="Man$1"/> <atom label="Platform$1"/> </tuple>
+   <types> <type ID="5"/> <type ID="4"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$BelowToo_m" ID="8">
+   <tuple> <atom label="Man$1"/> </tuple>
+   <types> <type ID="5"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

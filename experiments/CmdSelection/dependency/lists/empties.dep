@@ -1,0 +1,11 @@
+assert:empties -483841323
+check:empties 953506687
+fact:Equivalence -1951962898
+fact:NoStrayThings 1998986088
+fact:finite -1116566566
+fact:prefix 1864836794
+pred:isFinite 1773621012
+sig:EmptyList -214038471
+sig:List 97513588
+sig:NonEmptyList -2135757389
+sig:Thing -1517676957

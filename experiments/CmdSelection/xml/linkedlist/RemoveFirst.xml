@@ -1,0 +1,69 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="2" maxseq="1" command="Run RemoveFirst for 2 int, 1 List, 3 Node" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/linkedlist.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/List" ID="4" parentID="2">
+   <atom label="List$0"/>
+</sig>
+
+<field label="header" ID="5" parentID="4">
+   <tuple> <atom label="List$0"/> <atom label="Node$0"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<field label="header&apos;" ID="7" parentID="4">
+   <tuple> <atom label="List$0"/> <atom label="Node$0"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<sig label="this/Node" ID="6" parentID="2">
+   <atom label="Node$0"/>
+   <atom label="Node$1"/>
+</sig>
+
+<field label="elem" ID="8" parentID="6">
+   <tuple> <atom label="Node$0"/> <atom label="0"/> </tuple>
+   <tuple> <atom label="Node$1"/> <atom label="-2"/> </tuple>
+   <types> <type ID="6"/> <type ID="1"/> </types>
+</field>
+
+<field label="elem&apos;" ID="9" parentID="6">
+   <tuple> <atom label="Node$0"/> <atom label="-2"/> </tuple>
+   <tuple> <atom label="Node$1"/> <atom label="1"/> </tuple>
+   <types> <type ID="6"/> <type ID="1"/> </types>
+</field>
+
+<field label="link" ID="10" parentID="6">
+   <tuple> <atom label="Node$0"/> <atom label="Node$1"/> </tuple>
+   <types> <type ID="6"/> <type ID="6"/> </types>
+</field>
+
+<field label="link&apos;" ID="11" parentID="6">
+   <types> <type ID="6"/> <type ID="6"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$RemoveFirst_l" ID="12">
+   <tuple> <atom label="List$0"/> </tuple>
+   <types> <type ID="4"/> </types>
+</skolem>
+
+<skolem label="$RemoveFirst_n" ID="13">
+   <tuple> <atom label="Node$1"/> </tuple>
+   <types> <type ID="6"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

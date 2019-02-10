@@ -1,0 +1,59 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run ownGrandpa for 40" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/grandpa3/v1/grandpa3.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Man" ID="4" parentID="5">
+   <atom label="Man$0"/>
+   <atom label="Man$1"/>
+</sig>
+
+<field label="wife" ID="6" parentID="4">
+   <tuple> <atom label="Man$0"/> <atom label="Woman$1"/> </tuple>
+   <tuple> <atom label="Man$1"/> <atom label="Woman$0"/> </tuple>
+   <types> <type ID="4"/> <type ID="7"/> </types>
+</field>
+
+<sig label="this/Woman" ID="7" parentID="5">
+   <atom label="Woman$0"/>
+   <atom label="Woman$1"/>
+</sig>
+
+<field label="husband" ID="8" parentID="7">
+   <tuple> <atom label="Woman$0"/> <atom label="Man$1"/> </tuple>
+   <tuple> <atom label="Woman$1"/> <atom label="Man$0"/> </tuple>
+   <types> <type ID="7"/> <type ID="4"/> </types>
+</field>
+
+<sig label="this/Person" ID="5" parentID="2" abstract="yes">
+</sig>
+
+<field label="father" ID="9" parentID="5">
+   <types> <type ID="5"/> <type ID="4"/> </types>
+</field>
+
+<field label="mother" ID="10" parentID="5">
+   <tuple> <atom label="Man$0"/> <atom label="Woman$0"/> </tuple>
+   <tuple> <atom label="Man$1"/> <atom label="Woman$1"/> </tuple>
+   <types> <type ID="5"/> <type ID="7"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$ownGrandpa_p" ID="11">
+   <tuple> <atom label="Man$0"/> </tuple>
+   <types> <type ID="5"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

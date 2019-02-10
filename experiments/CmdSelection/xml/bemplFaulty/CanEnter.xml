@@ -1,0 +1,70 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run CanEnter for 80" filename="/home/huyang/Desktop/tmpialloy/CmdCommand_2019/Alloy_parser/experiments/CmdSelection/models/bemplFaulty/v2/bemplFaulty.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/secure_lab" ID="4" parentID="5" one="yes">
+   <atom label="secure_lab$0"/>
+</sig>
+
+<sig label="this/Room" ID="5" parentID="2">
+   <atom label="Room$0"/>
+   <atom label="Room$1"/>
+   <atom label="Room$2"/>
+</sig>
+
+<sig label="this/Employee" ID="6" parentID="7">
+   <atom label="Employee$0"/>
+</sig>
+
+<sig label="this/Researcher" ID="8" parentID="7">
+   <atom label="Researcher$0"/>
+   <atom label="Researcher$1"/>
+</sig>
+
+<sig label="this/Person" ID="7" parentID="2" abstract="yes">
+</sig>
+
+<field label="owns" ID="9" parentID="7">
+   <tuple> <atom label="Researcher$1"/> <atom label="Key$0"/> </tuple>
+   <types> <type ID="7"/> <type ID="10"/> </types>
+</field>
+
+<sig label="this/Key" ID="10" parentID="2">
+   <atom label="Key$0"/>
+</sig>
+
+<field label="authorized" ID="11" parentID="10">
+   <tuple> <atom label="Key$0"/> <atom label="Employee$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="6"/> </types>
+</field>
+
+<field label="opened_by" ID="12" parentID="10">
+   <tuple> <atom label="Key$0"/> <atom label="Room$2"/> </tuple>
+   <types> <type ID="10"/> <type ID="5"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$CanEnter_p" ID="13">
+   <tuple> <atom label="Researcher$1"/> </tuple>
+   <types> <type ID="7"/> </types>
+</skolem>
+
+<skolem label="$CanEnter_r" ID="14">
+   <tuple> <atom label="Room$2"/> </tuple>
+   <types> <type ID="5"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

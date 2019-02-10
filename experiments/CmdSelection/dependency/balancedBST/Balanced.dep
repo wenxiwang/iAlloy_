@@ -1,0 +1,7 @@
+fact:Acyclic -467757711
+fact:Reachable -1267725824
+pred:Balanced 1668815846
+pred:HasAtMostOneChild -1892044435
+run:Balanced 1740458809
+sig:BinaryTree -1020519987
+sig:Node -694816338

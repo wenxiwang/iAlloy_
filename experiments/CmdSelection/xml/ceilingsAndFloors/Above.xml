@@ -1,0 +1,87 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run Above for 60" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/ceilingsAndFloors/v1/ceilingsAndFloors.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Platform" ID="4" parentID="2">
+   <atom label="Platform$0"/>
+   <atom label="Platform$1"/>
+   <atom label="Platform$2"/>
+   <atom label="Platform$3"/>
+   <atom label="Platform$4"/>
+   <atom label="Platform$5"/>
+   <atom label="Platform$6"/>
+   <atom label="Platform$7"/>
+   <atom label="Platform$8"/>
+   <atom label="Platform$9"/>
+   <atom label="Platform$10"/>
+   <atom label="Platform$11"/>
+   <atom label="Platform$12"/>
+   <atom label="Platform$13"/>
+   <atom label="Platform$14"/>
+   <atom label="Platform$15"/>
+   <atom label="Platform$16"/>
+   <atom label="Platform$17"/>
+   <atom label="Platform$18"/>
+   <atom label="Platform$19"/>
+   <atom label="Platform$20"/>
+   <atom label="Platform$21"/>
+   <atom label="Platform$22"/>
+   <atom label="Platform$23"/>
+   <atom label="Platform$24"/>
+   <atom label="Platform$25"/>
+   <atom label="Platform$26"/>
+   <atom label="Platform$27"/>
+   <atom label="Platform$28"/>
+   <atom label="Platform$29"/>
+   <atom label="Platform$30"/>
+   <atom label="Platform$31"/>
+   <atom label="Platform$32"/>
+   <atom label="Platform$33"/>
+   <atom label="Platform$34"/>
+   <atom label="Platform$35"/>
+   <atom label="Platform$36"/>
+   <atom label="Platform$37"/>
+   <atom label="Platform$38"/>
+   <atom label="Platform$39"/>
+   <atom label="Platform$40"/>
+</sig>
+
+<sig label="this/Man" ID="5" parentID="2">
+   <atom label="Man$0"/>
+</sig>
+
+<field label="ceiling" ID="6" parentID="5">
+   <tuple> <atom label="Man$0"/> <atom label="Platform$40"/> </tuple>
+   <types> <type ID="5"/> <type ID="4"/> </types>
+</field>
+
+<field label="floor" ID="7" parentID="5">
+   <tuple> <atom label="Man$0"/> <atom label="Platform$40"/> </tuple>
+   <types> <type ID="5"/> <type ID="4"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$Above_m" ID="8">
+   <tuple> <atom label="Man$0"/> </tuple>
+   <types> <type ID="5"/> </types>
+</skolem>
+
+<skolem label="$Above_n" ID="9">
+   <tuple> <atom label="Man$0"/> </tuple>
+   <types> <type ID="5"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

@@ -1,0 +1,265 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run RealTrans for 17" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/peterson/v1/peterson.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/pid" ID="4" parentID="2">
+   <atom label="pid$0"/>
+</sig>
+
+<sig label="this/priority" ID="5" parentID="2">
+   <atom label="priority$0"/>
+   <atom label="priority$1"/>
+   <atom label="priority$2"/>
+   <atom label="priority$3"/>
+   <atom label="priority$4"/>
+   <atom label="priority$5"/>
+   <atom label="priority$6"/>
+   <atom label="priority$7"/>
+   <atom label="priority$8"/>
+   <atom label="priority$9"/>
+   <atom label="priority$10"/>
+   <atom label="priority$11"/>
+   <atom label="priority$12"/>
+   <atom label="priority$13"/>
+   <atom label="priority$14"/>
+   <atom label="priority$15"/>
+   <atom label="priority$16"/>
+</sig>
+
+<sig label="this/L0" ID="6" parentID="7" one="yes">
+   <atom label="L0$0"/>
+</sig>
+
+<sig label="this/L1" ID="8" parentID="7" one="yes">
+   <atom label="L1$0"/>
+</sig>
+
+<sig label="this/L2" ID="9" parentID="7" one="yes">
+   <atom label="L2$0"/>
+</sig>
+
+<sig label="this/L3" ID="10" parentID="7" one="yes">
+   <atom label="L3$0"/>
+</sig>
+
+<sig label="this/L4" ID="11" parentID="7" one="yes">
+   <atom label="L4$0"/>
+</sig>
+
+<sig label="this/label_t" ID="7" parentID="2" abstract="yes">
+</sig>
+
+<sig label="this/State" ID="12" parentID="2">
+   <atom label="State$0"/>
+   <atom label="State$1"/>
+   <atom label="State$2"/>
+   <atom label="State$3"/>
+   <atom label="State$4"/>
+   <atom label="State$5"/>
+   <atom label="State$6"/>
+   <atom label="State$7"/>
+   <atom label="State$8"/>
+   <atom label="State$9"/>
+   <atom label="State$10"/>
+   <atom label="State$11"/>
+   <atom label="State$12"/>
+   <atom label="State$13"/>
+   <atom label="State$14"/>
+   <atom label="State$15"/>
+   <atom label="State$16"/>
+</sig>
+
+<field label="P" ID="13" parentID="12">
+   <tuple> <atom label="State$0"/> <atom label="pid$0"/> <atom label="L0$0"/> </tuple>
+   <tuple> <atom label="State$1"/> <atom label="pid$0"/> <atom label="L1$0"/> </tuple>
+   <tuple> <atom label="State$2"/> <atom label="pid$0"/> <atom label="L2$0"/> </tuple>
+   <tuple> <atom label="State$3"/> <atom label="pid$0"/> <atom label="L3$0"/> </tuple>
+   <tuple> <atom label="State$4"/> <atom label="pid$0"/> <atom label="L1$0"/> </tuple>
+   <tuple> <atom label="State$5"/> <atom label="pid$0"/> <atom label="L2$0"/> </tuple>
+   <tuple> <atom label="State$6"/> <atom label="pid$0"/> <atom label="L3$0"/> </tuple>
+   <tuple> <atom label="State$7"/> <atom label="pid$0"/> <atom label="L1$0"/> </tuple>
+   <tuple> <atom label="State$8"/> <atom label="pid$0"/> <atom label="L2$0"/> </tuple>
+   <tuple> <atom label="State$9"/> <atom label="pid$0"/> <atom label="L3$0"/> </tuple>
+   <tuple> <atom label="State$10"/> <atom label="pid$0"/> <atom label="L1$0"/> </tuple>
+   <tuple> <atom label="State$11"/> <atom label="pid$0"/> <atom label="L2$0"/> </tuple>
+   <tuple> <atom label="State$12"/> <atom label="pid$0"/> <atom label="L3$0"/> </tuple>
+   <tuple> <atom label="State$13"/> <atom label="pid$0"/> <atom label="L1$0"/> </tuple>
+   <tuple> <atom label="State$14"/> <atom label="pid$0"/> <atom label="L2$0"/> </tuple>
+   <tuple> <atom label="State$15"/> <atom label="pid$0"/> <atom label="L3$0"/> </tuple>
+   <tuple> <atom label="State$16"/> <atom label="pid$0"/> <atom label="L1$0"/> </tuple>
+   <types> <type ID="12"/> <type ID="4"/> <type ID="7"/> </types>
+</field>
+
+<field label="Q" ID="14" parentID="12">
+   <tuple> <atom label="State$0"/> <atom label="pid$0"/> <atom label="priority$0"/> </tuple>
+   <tuple> <atom label="State$1"/> <atom label="pid$0"/> <atom label="priority$0"/> </tuple>
+   <tuple> <atom label="State$2"/> <atom label="pid$0"/> <atom label="priority$1"/> </tuple>
+   <tuple> <atom label="State$3"/> <atom label="pid$0"/> <atom label="priority$1"/> </tuple>
+   <tuple> <atom label="State$4"/> <atom label="pid$0"/> <atom label="priority$1"/> </tuple>
+   <tuple> <atom label="State$5"/> <atom label="pid$0"/> <atom label="priority$2"/> </tuple>
+   <tuple> <atom label="State$6"/> <atom label="pid$0"/> <atom label="priority$2"/> </tuple>
+   <tuple> <atom label="State$7"/> <atom label="pid$0"/> <atom label="priority$2"/> </tuple>
+   <tuple> <atom label="State$8"/> <atom label="pid$0"/> <atom label="priority$3"/> </tuple>
+   <tuple> <atom label="State$9"/> <atom label="pid$0"/> <atom label="priority$3"/> </tuple>
+   <tuple> <atom label="State$10"/> <atom label="pid$0"/> <atom label="priority$3"/> </tuple>
+   <tuple> <atom label="State$11"/> <atom label="pid$0"/> <atom label="priority$4"/> </tuple>
+   <tuple> <atom label="State$12"/> <atom label="pid$0"/> <atom label="priority$4"/> </tuple>
+   <tuple> <atom label="State$13"/> <atom label="pid$0"/> <atom label="priority$4"/> </tuple>
+   <tuple> <atom label="State$14"/> <atom label="pid$0"/> <atom label="priority$5"/> </tuple>
+   <tuple> <atom label="State$15"/> <atom label="pid$0"/> <atom label="priority$5"/> </tuple>
+   <tuple> <atom label="State$16"/> <atom label="pid$0"/> <atom label="priority$5"/> </tuple>
+   <types> <type ID="12"/> <type ID="4"/> <type ID="5"/> </types>
+</field>
+
+<field label="turn" ID="15" parentID="12">
+   <tuple> <atom label="State$3"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$4"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$5"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$6"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$6"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$7"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$7"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$8"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$8"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$9"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$9"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$9"/> <atom label="priority$3"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$10"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$10"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$10"/> <atom label="priority$3"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$11"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$11"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$11"/> <atom label="priority$3"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$12"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$12"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$12"/> <atom label="priority$3"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$12"/> <atom label="priority$4"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$13"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$13"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$13"/> <atom label="priority$3"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$13"/> <atom label="priority$4"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$14"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$14"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$14"/> <atom label="priority$3"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$14"/> <atom label="priority$4"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$15"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$15"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$15"/> <atom label="priority$3"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$15"/> <atom label="priority$4"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$15"/> <atom label="priority$5"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$16"/> <atom label="priority$1"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$16"/> <atom label="priority$2"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$16"/> <atom label="priority$3"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$16"/> <atom label="priority$4"/> <atom label="pid$0"/> </tuple>
+   <tuple> <atom label="State$16"/> <atom label="priority$5"/> <atom label="pid$0"/> </tuple>
+   <types> <type ID="12"/> <type ID="5"/> <type ID="4"/> </types>
+</field>
+
+<field label="localj" ID="16" parentID="12">
+   <tuple> <atom label="State$1"/> <atom label="pid$0"/> <atom label="priority$1"/> </tuple>
+   <tuple> <atom label="State$2"/> <atom label="pid$0"/> <atom label="priority$1"/> </tuple>
+   <tuple> <atom label="State$3"/> <atom label="pid$0"/> <atom label="priority$1"/> </tuple>
+   <tuple> <atom label="State$4"/> <atom label="pid$0"/> <atom label="priority$2"/> </tuple>
+   <tuple> <atom label="State$5"/> <atom label="pid$0"/> <atom label="priority$2"/> </tuple>
+   <tuple> <atom label="State$6"/> <atom label="pid$0"/> <atom label="priority$2"/> </tuple>
+   <tuple> <atom label="State$7"/> <atom label="pid$0"/> <atom label="priority$3"/> </tuple>
+   <tuple> <atom label="State$8"/> <atom label="pid$0"/> <atom label="priority$3"/> </tuple>
+   <tuple> <atom label="State$9"/> <atom label="pid$0"/> <atom label="priority$3"/> </tuple>
+   <tuple> <atom label="State$10"/> <atom label="pid$0"/> <atom label="priority$4"/> </tuple>
+   <tuple> <atom label="State$11"/> <atom label="pid$0"/> <atom label="priority$4"/> </tuple>
+   <tuple> <atom label="State$12"/> <atom label="pid$0"/> <atom label="priority$4"/> </tuple>
+   <tuple> <atom label="State$13"/> <atom label="pid$0"/> <atom label="priority$5"/> </tuple>
+   <tuple> <atom label="State$14"/> <atom label="pid$0"/> <atom label="priority$5"/> </tuple>
+   <tuple> <atom label="State$15"/> <atom label="pid$0"/> <atom label="priority$5"/> </tuple>
+   <tuple> <atom label="State$16"/> <atom label="pid$0"/> <atom label="priority$6"/> </tuple>
+   <types> <type ID="12"/> <type ID="4"/> <type ID="5"/> </types>
+</field>
+
+<sig label="po/Ord" ID="17" parentID="2" one="yes" private="yes">
+   <atom label="po/Ord$0"/>
+</sig>
+
+<field label="First" ID="18" parentID="17" private="yes">
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$0"/> </tuple>
+   <types> <type ID="17"/> <type ID="5"/> </types>
+</field>
+
+<field label="Next" ID="19" parentID="17" private="yes">
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$0"/> <atom label="priority$1"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$1"/> <atom label="priority$2"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$2"/> <atom label="priority$3"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$3"/> <atom label="priority$4"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$4"/> <atom label="priority$5"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$5"/> <atom label="priority$6"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$6"/> <atom label="priority$7"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$7"/> <atom label="priority$8"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$8"/> <atom label="priority$9"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$9"/> <atom label="priority$10"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$10"/> <atom label="priority$11"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$11"/> <atom label="priority$12"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$12"/> <atom label="priority$13"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$13"/> <atom label="priority$14"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$14"/> <atom label="priority$15"/> </tuple>
+   <tuple> <atom label="po/Ord$0"/> <atom label="priority$15"/> <atom label="priority$16"/> </tuple>
+   <types> <type ID="17"/> <type ID="5"/> <type ID="5"/> </types>
+</field>
+
+<sig label="so/Ord" ID="20" parentID="2" one="yes" private="yes">
+   <atom label="so/Ord$0"/>
+</sig>
+
+<field label="First" ID="21" parentID="20" private="yes">
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$0"/> </tuple>
+   <types> <type ID="20"/> <type ID="12"/> </types>
+</field>
+
+<field label="Next" ID="22" parentID="20" private="yes">
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$0"/> <atom label="State$1"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$1"/> <atom label="State$2"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$2"/> <atom label="State$3"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$3"/> <atom label="State$4"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$4"/> <atom label="State$5"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$5"/> <atom label="State$6"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$6"/> <atom label="State$7"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$7"/> <atom label="State$8"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$8"/> <atom label="State$9"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$9"/> <atom label="State$10"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$10"/> <atom label="State$11"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$11"/> <atom label="State$12"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$12"/> <atom label="State$13"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$13"/> <atom label="State$14"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$14"/> <atom label="State$15"/> </tuple>
+   <tuple> <atom label="so/Ord$0"/> <atom label="State$15"/> <atom label="State$16"/> </tuple>
+   <types> <type ID="20"/> <type ID="12"/> <type ID="12"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$RealTrans_i" ID="23">
+   <tuple> <atom label="pid$0"/> </tuple>
+   <types> <type ID="4"/> </types>
+</skolem>
+
+<skolem label="$RealTrans_pre" ID="24">
+   <tuple> <atom label="State$0"/> </tuple>
+   <types> <type ID="12"/> </types>
+</skolem>
+
+<skolem label="$RealTrans_post" ID="25">
+   <tuple> <atom label="State$1"/> </tuple>
+   <types> <type ID="12"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

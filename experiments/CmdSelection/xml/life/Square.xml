@@ -1,0 +1,75 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run Square for 11 expect 1" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/life/v1/life.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Root" ID="4" parentID="5" one="yes">
+   <atom label="Root$0"/>
+</sig>
+
+<sig label="this/Point" ID="5" parentID="2">
+</sig>
+
+<field label="right" ID="6" parentID="5">
+   <types> <type ID="5"/> <type ID="5"/> </types>
+</field>
+
+<field label="below" ID="7" parentID="5">
+   <types> <type ID="5"/> <type ID="5"/> </types>
+</field>
+
+<sig label="this/State" ID="8" parentID="2">
+   <atom label="State$0"/>
+   <atom label="State$1"/>
+   <atom label="State$2"/>
+   <atom label="State$3"/>
+   <atom label="State$4"/>
+   <atom label="State$5"/>
+   <atom label="State$6"/>
+   <atom label="State$7"/>
+   <atom label="State$8"/>
+   <atom label="State$9"/>
+   <atom label="State$10"/>
+</sig>
+
+<field label="live" ID="9" parentID="8">
+   <types> <type ID="8"/> <type ID="5"/> </types>
+</field>
+
+<sig label="ord/Ord" ID="10" parentID="2" one="yes" private="yes">
+   <atom label="ord/Ord$0"/>
+</sig>
+
+<field label="First" ID="11" parentID="10" private="yes">
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$0"/> </tuple>
+   <types> <type ID="10"/> <type ID="8"/> </types>
+</field>
+
+<field label="Next" ID="12" parentID="10" private="yes">
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$0"/> <atom label="State$1"/> </tuple>
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$1"/> <atom label="State$2"/> </tuple>
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$2"/> <atom label="State$3"/> </tuple>
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$3"/> <atom label="State$4"/> </tuple>
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$4"/> <atom label="State$5"/> </tuple>
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$5"/> <atom label="State$6"/> </tuple>
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$6"/> <atom label="State$7"/> </tuple>
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$7"/> <atom label="State$8"/> </tuple>
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$8"/> <atom label="State$9"/> </tuple>
+   <tuple> <atom label="ord/Ord$0"/> <atom label="State$9"/> <atom label="State$10"/> </tuple>
+   <types> <type ID="10"/> <type ID="8"/> <type ID="8"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+</instance>
+
+</alloy>

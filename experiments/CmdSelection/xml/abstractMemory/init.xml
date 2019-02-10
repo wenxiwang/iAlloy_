@@ -1,0 +1,61 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run init for 30" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/abstractMemory/v1/abstractMemory.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Addr" ID="4" parentID="2">
+   <atom label="Addr$0"/>
+   <atom label="Addr$1"/>
+   <atom label="Addr$2"/>
+   <atom label="Addr$3"/>
+   <atom label="Addr$4"/>
+</sig>
+
+<sig label="this/Data" ID="5" parentID="2">
+   <atom label="Data$0"/>
+   <atom label="Data$1"/>
+   <atom label="Data$2"/>
+   <atom label="Data$3"/>
+   <atom label="Data$4"/>
+   <atom label="Data$5"/>
+   <atom label="Data$6"/>
+   <atom label="Data$7"/>
+   <atom label="Data$8"/>
+   <atom label="Data$9"/>
+   <atom label="Data$10"/>
+   <atom label="Data$11"/>
+   <atom label="Data$12"/>
+   <atom label="Data$13"/>
+   <atom label="Data$14"/>
+   <atom label="Data$15"/>
+   <atom label="Data$16"/>
+   <atom label="Data$17"/>
+</sig>
+
+<sig label="this/Memory" ID="6" parentID="2">
+   <atom label="Memory$0"/>
+</sig>
+
+<field label="data" ID="7" parentID="6">
+   <types> <type ID="6"/> <type ID="4"/> <type ID="5"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$init_m" ID="8">
+   <tuple> <atom label="Memory$0"/> </tuple>
+   <types> <type ID="6"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

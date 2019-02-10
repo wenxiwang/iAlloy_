@@ -1,0 +1,97 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Check lookupEndsInAddr for 7" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/addr/v5/addr.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Address" ID="4" parentID="5">
+   <atom label="Address$0"/>
+   <atom label="Address$1"/>
+   <atom label="Address$2"/>
+   <atom label="Address$3"/>
+   <atom label="Address$4"/>
+   <atom label="Address$5"/>
+</sig>
+
+<sig label="this/Name" ID="6" parentID="5" one="yes">
+   <atom label="Name$0"/>
+</sig>
+
+<sig label="this/Listing" ID="5" parentID="2" abstract="yes">
+</sig>
+
+<sig label="this/Book" ID="7" parentID="2">
+   <atom label="Book$0"/>
+   <atom label="Book$1"/>
+   <atom label="Book$2"/>
+   <atom label="Book$3"/>
+   <atom label="Book$4"/>
+   <atom label="Book$5"/>
+   <atom label="Book$6"/>
+</sig>
+
+<field label="entry" ID="8" parentID="7">
+   <tuple> <atom label="Book$0"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$1"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$2"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$3"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$4"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$5"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$6"/> <atom label="Name$0"/> </tuple>
+   <types> <type ID="7"/> <type ID="6"/> </types>
+</field>
+
+<field label="listed" ID="9" parentID="7">
+   <tuple> <atom label="Book$0"/> <atom label="Name$0"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$0"/> <atom label="Name$0"/> <atom label="Address$3"/> </tuple>
+   <tuple> <atom label="Book$0"/> <atom label="Name$0"/> <atom label="Address$4"/> </tuple>
+   <tuple> <atom label="Book$0"/> <atom label="Name$0"/> <atom label="Address$5"/> </tuple>
+   <tuple> <atom label="Book$1"/> <atom label="Name$0"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$1"/> <atom label="Name$0"/> <atom label="Address$2"/> </tuple>
+   <tuple> <atom label="Book$1"/> <atom label="Name$0"/> <atom label="Address$4"/> </tuple>
+   <tuple> <atom label="Book$1"/> <atom label="Name$0"/> <atom label="Address$5"/> </tuple>
+   <tuple> <atom label="Book$2"/> <atom label="Name$0"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$2"/> <atom label="Name$0"/> <atom label="Address$1"/> </tuple>
+   <tuple> <atom label="Book$2"/> <atom label="Name$0"/> <atom label="Address$3"/> </tuple>
+   <tuple> <atom label="Book$3"/> <atom label="Name$0"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$3"/> <atom label="Name$0"/> <atom label="Address$0"/> </tuple>
+   <tuple> <atom label="Book$3"/> <atom label="Name$0"/> <atom label="Address$2"/> </tuple>
+   <tuple> <atom label="Book$3"/> <atom label="Name$0"/> <atom label="Address$4"/> </tuple>
+   <tuple> <atom label="Book$3"/> <atom label="Name$0"/> <atom label="Address$5"/> </tuple>
+   <tuple> <atom label="Book$4"/> <atom label="Name$0"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$4"/> <atom label="Name$0"/> <atom label="Address$0"/> </tuple>
+   <tuple> <atom label="Book$4"/> <atom label="Name$0"/> <atom label="Address$2"/> </tuple>
+   <tuple> <atom label="Book$4"/> <atom label="Name$0"/> <atom label="Address$3"/> </tuple>
+   <tuple> <atom label="Book$4"/> <atom label="Name$0"/> <atom label="Address$5"/> </tuple>
+   <tuple> <atom label="Book$5"/> <atom label="Name$0"/> <atom label="Name$0"/> </tuple>
+   <tuple> <atom label="Book$5"/> <atom label="Name$0"/> <atom label="Address$0"/> </tuple>
+   <tuple> <atom label="Book$5"/> <atom label="Name$0"/> <atom label="Address$1"/> </tuple>
+   <tuple> <atom label="Book$5"/> <atom label="Name$0"/> <atom label="Address$2"/> </tuple>
+   <tuple> <atom label="Book$5"/> <atom label="Name$0"/> <atom label="Address$4"/> </tuple>
+   <tuple> <atom label="Book$6"/> <atom label="Name$0"/> <atom label="Name$0"/> </tuple>
+   <types> <type ID="7"/> <type ID="6"/> <type ID="5"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$lookupEndsInAddr_b" ID="10">
+   <tuple> <atom label="Book$6"/> </tuple>
+   <types> <type ID="7"/> </types>
+</skolem>
+
+<skolem label="$lookupEndsInAddr_n" ID="11">
+   <tuple> <atom label="Name$0"/> </tuple>
+   <types> <type ID="6"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

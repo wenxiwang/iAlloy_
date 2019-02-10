@@ -1,0 +1,10 @@
+assert:lookupEndsInAddr -312935073
+check:lookupEndsInAddr -545964160
+fact:fact_1 962055200
+fact:fact_2 204709038
+fact:fact_3 1476976889
+fun:lookup 227876536
+sig:Address 1682080000
+sig:Book -1554511347
+sig:Listing -1617471221
+sig:Name -25310447

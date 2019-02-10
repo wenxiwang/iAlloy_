@@ -1,0 +1,178 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="12" maxseq="4" command="Run Puzzle for 12 int, exactly 16 Person expect 1" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/handshake/v5/handshake.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Jocelyn" ID="4" parentID="5" one="yes">
+   <atom label="Jocelyn$0"/>
+</sig>
+
+<sig label="this/Hilary" ID="6" parentID="5" one="yes">
+   <atom label="Hilary$0"/>
+</sig>
+
+<sig label="this/Person" ID="5" parentID="2">
+   <atom label="Person$0"/>
+   <atom label="Person$1"/>
+   <atom label="Person$2"/>
+   <atom label="Person$3"/>
+   <atom label="Person$4"/>
+   <atom label="Person$5"/>
+   <atom label="Person$6"/>
+   <atom label="Person$7"/>
+   <atom label="Person$8"/>
+   <atom label="Person$9"/>
+   <atom label="Person$10"/>
+   <atom label="Person$11"/>
+   <atom label="Person$12"/>
+   <atom label="Person$13"/>
+</sig>
+
+<field label="spouse" ID="7" parentID="5">
+   <tuple> <atom label="Jocelyn$0"/> <atom label="Hilary$0"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Jocelyn$0"/> </tuple>
+   <tuple> <atom label="Person$0"/> <atom label="Person$10"/> </tuple>
+   <tuple> <atom label="Person$1"/> <atom label="Person$8"/> </tuple>
+   <tuple> <atom label="Person$2"/> <atom label="Person$9"/> </tuple>
+   <tuple> <atom label="Person$3"/> <atom label="Person$11"/> </tuple>
+   <tuple> <atom label="Person$4"/> <atom label="Person$13"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$5"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$6"/> </tuple>
+   <tuple> <atom label="Person$7"/> <atom label="Person$7"/> </tuple>
+   <tuple> <atom label="Person$8"/> <atom label="Person$1"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$2"/> </tuple>
+   <tuple> <atom label="Person$10"/> <atom label="Person$0"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Person$3"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$12"/> </tuple>
+   <tuple> <atom label="Person$13"/> <atom label="Person$4"/> </tuple>
+   <types> <type ID="5"/> <type ID="5"/> </types>
+</field>
+
+<field label="shaken" ID="8" parentID="5">
+   <tuple> <atom label="Hilary$0"/> <atom label="Hilary$0"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Person$0"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Person$1"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Person$6"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Person$7"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Person$8"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Person$9"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Person$10"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Person$11"/> </tuple>
+   <tuple> <atom label="Hilary$0"/> <atom label="Person$13"/> </tuple>
+   <tuple> <atom label="Person$0"/> <atom label="Person$2"/> </tuple>
+   <tuple> <atom label="Person$0"/> <atom label="Person$3"/> </tuple>
+   <tuple> <atom label="Person$0"/> <atom label="Person$4"/> </tuple>
+   <tuple> <atom label="Person$0"/> <atom label="Person$6"/> </tuple>
+   <tuple> <atom label="Person$0"/> <atom label="Person$7"/> </tuple>
+   <tuple> <atom label="Person$0"/> <atom label="Person$8"/> </tuple>
+   <tuple> <atom label="Person$0"/> <atom label="Person$9"/> </tuple>
+   <tuple> <atom label="Person$1"/> <atom label="Person$12"/> </tuple>
+   <tuple> <atom label="Person$3"/> <atom label="Person$6"/> </tuple>
+   <tuple> <atom label="Person$3"/> <atom label="Person$7"/> </tuple>
+   <tuple> <atom label="Person$3"/> <atom label="Person$8"/> </tuple>
+   <tuple> <atom label="Person$3"/> <atom label="Person$9"/> </tuple>
+   <tuple> <atom label="Person$3"/> <atom label="Person$10"/> </tuple>
+   <tuple> <atom label="Person$3"/> <atom label="Person$11"/> </tuple>
+   <tuple> <atom label="Person$3"/> <atom label="Person$12"/> </tuple>
+   <tuple> <atom label="Person$3"/> <atom label="Person$13"/> </tuple>
+   <tuple> <atom label="Person$4"/> <atom label="Person$0"/> </tuple>
+   <tuple> <atom label="Person$4"/> <atom label="Person$1"/> </tuple>
+   <tuple> <atom label="Person$4"/> <atom label="Person$13"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$0"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$2"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$3"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$4"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$5"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$6"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$7"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$8"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$9"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$10"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$11"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$12"/> </tuple>
+   <tuple> <atom label="Person$5"/> <atom label="Person$13"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Jocelyn$0"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Hilary$0"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$0"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$2"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$3"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$4"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$5"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$6"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$7"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$8"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$9"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$10"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$12"/> </tuple>
+   <tuple> <atom label="Person$6"/> <atom label="Person$13"/> </tuple>
+   <tuple> <atom label="Person$7"/> <atom label="Hilary$0"/> </tuple>
+   <tuple> <atom label="Person$7"/> <atom label="Person$10"/> </tuple>
+   <tuple> <atom label="Person$8"/> <atom label="Person$2"/> </tuple>
+   <tuple> <atom label="Person$8"/> <atom label="Person$3"/> </tuple>
+   <tuple> <atom label="Person$8"/> <atom label="Person$4"/> </tuple>
+   <tuple> <atom label="Person$8"/> <atom label="Person$5"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Jocelyn$0"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Hilary$0"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$0"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$1"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$3"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$6"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$7"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$8"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$9"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$11"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$12"/> </tuple>
+   <tuple> <atom label="Person$9"/> <atom label="Person$13"/> </tuple>
+   <tuple> <atom label="Person$10"/> <atom label="Jocelyn$0"/> </tuple>
+   <tuple> <atom label="Person$10"/> <atom label="Person$0"/> </tuple>
+   <tuple> <atom label="Person$10"/> <atom label="Person$1"/> </tuple>
+   <tuple> <atom label="Person$10"/> <atom label="Person$2"/> </tuple>
+   <tuple> <atom label="Person$10"/> <atom label="Person$4"/> </tuple>
+   <tuple> <atom label="Person$10"/> <atom label="Person$5"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Jocelyn$0"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Hilary$0"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Person$0"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Person$1"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Person$2"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Person$4"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Person$10"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Person$12"/> </tuple>
+   <tuple> <atom label="Person$11"/> <atom label="Person$13"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Jocelyn$0"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Hilary$0"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$0"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$1"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$2"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$3"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$4"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$5"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$6"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$7"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$8"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$9"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$10"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$11"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$12"/> </tuple>
+   <tuple> <atom label="Person$12"/> <atom label="Person$13"/> </tuple>
+   <tuple> <atom label="Person$13"/> <atom label="Person$2"/> </tuple>
+   <tuple> <atom label="Person$13"/> <atom label="Person$10"/> </tuple>
+   <tuple> <atom label="Person$13"/> <atom label="Person$11"/> </tuple>
+   <tuple> <atom label="Person$13"/> <atom label="Person$12"/> </tuple>
+   <tuple> <atom label="Person$13"/> <atom label="Person$13"/> </tuple>
+   <types> <type ID="5"/> <type ID="5"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+</instance>
+
+</alloy>

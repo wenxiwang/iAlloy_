@@ -1,0 +1,453 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run PolicyAllowsGrading for 100" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/grade/v2/grade.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Student" ID="4" parentID="5">
+   <atom label="Student$0"/>
+   <atom label="Student$1"/>
+   <atom label="Student$2"/>
+   <atom label="Student$3"/>
+   <atom label="Student$4"/>
+   <atom label="Student$5"/>
+   <atom label="Student$6"/>
+   <atom label="Student$7"/>
+   <atom label="Student$8"/>
+   <atom label="Student$9"/>
+   <atom label="Student$10"/>
+   <atom label="Student$11"/>
+   <atom label="Student$12"/>
+   <atom label="Student$13"/>
+   <atom label="Student$14"/>
+   <atom label="Student$15"/>
+   <atom label="Student$16"/>
+   <atom label="Student$17"/>
+   <atom label="Student$18"/>
+   <atom label="Student$19"/>
+   <atom label="Student$20"/>
+   <atom label="Student$21"/>
+   <atom label="Student$22"/>
+   <atom label="Student$23"/>
+   <atom label="Student$24"/>
+   <atom label="Student$25"/>
+   <atom label="Student$26"/>
+   <atom label="Student$27"/>
+   <atom label="Student$28"/>
+   <atom label="Student$29"/>
+   <atom label="Student$30"/>
+   <atom label="Student$31"/>
+   <atom label="Student$32"/>
+   <atom label="Student$33"/>
+   <atom label="Student$34"/>
+   <atom label="Student$35"/>
+   <atom label="Student$36"/>
+   <atom label="Student$37"/>
+   <atom label="Student$38"/>
+   <atom label="Student$39"/>
+   <atom label="Student$40"/>
+   <atom label="Student$41"/>
+   <atom label="Student$42"/>
+   <atom label="Student$43"/>
+   <atom label="Student$44"/>
+   <atom label="Student$45"/>
+   <atom label="Student$46"/>
+   <atom label="Student$47"/>
+   <atom label="Student$48"/>
+   <atom label="Student$49"/>
+   <atom label="Student$50"/>
+   <atom label="Student$51"/>
+   <atom label="Student$52"/>
+   <atom label="Student$53"/>
+   <atom label="Student$54"/>
+   <atom label="Student$55"/>
+   <atom label="Student$56"/>
+   <atom label="Student$57"/>
+   <atom label="Student$58"/>
+   <atom label="Student$59"/>
+   <atom label="Student$60"/>
+   <atom label="Student$61"/>
+   <atom label="Student$62"/>
+   <atom label="Student$63"/>
+   <atom label="Student$64"/>
+   <atom label="Student$65"/>
+   <atom label="Student$66"/>
+   <atom label="Student$67"/>
+   <atom label="Student$68"/>
+   <atom label="Student$69"/>
+   <atom label="Student$70"/>
+   <atom label="Student$71"/>
+   <atom label="Student$72"/>
+   <atom label="Student$73"/>
+   <atom label="Student$74"/>
+   <atom label="Student$75"/>
+   <atom label="Student$76"/>
+   <atom label="Student$77"/>
+   <atom label="Student$78"/>
+   <atom label="Student$79"/>
+   <atom label="Student$80"/>
+   <atom label="Student$81"/>
+   <atom label="Student$82"/>
+   <atom label="Student$83"/>
+   <atom label="Student$84"/>
+   <atom label="Student$85"/>
+   <atom label="Student$86"/>
+   <atom label="Student$87"/>
+   <atom label="Student$88"/>
+   <atom label="Student$89"/>
+   <atom label="Student$90"/>
+   <atom label="Student$91"/>
+   <atom label="Student$92"/>
+   <atom label="Student$93"/>
+   <atom label="Student$94"/>
+   <atom label="Student$95"/>
+   <atom label="Student$96"/>
+</sig>
+
+<sig label="this/Professor" ID="6" parentID="5" one="yes">
+   <atom label="Professor$0"/>
+</sig>
+
+<sig label="this/Person" ID="5" parentID="2" abstract="yes">
+</sig>
+
+<sig label="this/Class" ID="7" parentID="2">
+   <atom label="Class$0"/>
+   <atom label="Class$1"/>
+   <atom label="Class$2"/>
+   <atom label="Class$3"/>
+   <atom label="Class$4"/>
+   <atom label="Class$5"/>
+   <atom label="Class$6"/>
+   <atom label="Class$7"/>
+   <atom label="Class$8"/>
+   <atom label="Class$9"/>
+   <atom label="Class$10"/>
+   <atom label="Class$11"/>
+   <atom label="Class$12"/>
+   <atom label="Class$13"/>
+   <atom label="Class$14"/>
+   <atom label="Class$15"/>
+   <atom label="Class$16"/>
+   <atom label="Class$17"/>
+   <atom label="Class$18"/>
+   <atom label="Class$19"/>
+   <atom label="Class$20"/>
+   <atom label="Class$21"/>
+   <atom label="Class$22"/>
+   <atom label="Class$23"/>
+   <atom label="Class$24"/>
+   <atom label="Class$25"/>
+   <atom label="Class$26"/>
+   <atom label="Class$27"/>
+   <atom label="Class$28"/>
+   <atom label="Class$29"/>
+   <atom label="Class$30"/>
+   <atom label="Class$31"/>
+   <atom label="Class$32"/>
+   <atom label="Class$33"/>
+   <atom label="Class$34"/>
+   <atom label="Class$35"/>
+   <atom label="Class$36"/>
+   <atom label="Class$37"/>
+   <atom label="Class$38"/>
+   <atom label="Class$39"/>
+   <atom label="Class$40"/>
+   <atom label="Class$41"/>
+   <atom label="Class$42"/>
+   <atom label="Class$43"/>
+   <atom label="Class$44"/>
+   <atom label="Class$45"/>
+   <atom label="Class$46"/>
+   <atom label="Class$47"/>
+   <atom label="Class$48"/>
+   <atom label="Class$49"/>
+   <atom label="Class$50"/>
+   <atom label="Class$51"/>
+   <atom label="Class$52"/>
+   <atom label="Class$53"/>
+   <atom label="Class$54"/>
+   <atom label="Class$55"/>
+   <atom label="Class$56"/>
+   <atom label="Class$57"/>
+   <atom label="Class$58"/>
+   <atom label="Class$59"/>
+   <atom label="Class$60"/>
+   <atom label="Class$61"/>
+   <atom label="Class$62"/>
+   <atom label="Class$63"/>
+   <atom label="Class$64"/>
+   <atom label="Class$65"/>
+   <atom label="Class$66"/>
+   <atom label="Class$67"/>
+   <atom label="Class$68"/>
+   <atom label="Class$69"/>
+   <atom label="Class$70"/>
+   <atom label="Class$71"/>
+   <atom label="Class$72"/>
+   <atom label="Class$73"/>
+   <atom label="Class$74"/>
+   <atom label="Class$75"/>
+   <atom label="Class$76"/>
+   <atom label="Class$77"/>
+   <atom label="Class$78"/>
+   <atom label="Class$79"/>
+   <atom label="Class$80"/>
+   <atom label="Class$81"/>
+   <atom label="Class$82"/>
+   <atom label="Class$83"/>
+   <atom label="Class$84"/>
+   <atom label="Class$85"/>
+   <atom label="Class$86"/>
+   <atom label="Class$87"/>
+   <atom label="Class$88"/>
+   <atom label="Class$89"/>
+   <atom label="Class$90"/>
+   <atom label="Class$91"/>
+   <atom label="Class$92"/>
+   <atom label="Class$93"/>
+   <atom label="Class$94"/>
+   <atom label="Class$95"/>
+   <atom label="Class$96"/>
+   <atom label="Class$97"/>
+</sig>
+
+<field label="assistant_for" ID="8" parentID="7">
+   <tuple> <atom label="Class$97"/> <atom label="Student$96"/> </tuple>
+   <types> <type ID="7"/> <type ID="4"/> </types>
+</field>
+
+<field label="instructor_of" ID="9" parentID="7">
+   <tuple> <atom label="Class$0"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$1"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$2"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$3"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$4"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$5"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$6"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$7"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$8"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$9"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$10"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$11"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$12"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$13"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$14"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$15"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$16"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$17"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$18"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$19"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$20"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$21"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$22"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$23"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$24"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$25"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$26"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$27"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$28"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$29"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$30"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$31"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$32"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$33"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$34"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$35"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$36"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$37"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$38"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$39"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$40"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$41"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$42"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$43"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$44"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$45"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$46"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$47"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$48"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$49"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$50"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$51"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$52"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$53"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$54"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$55"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$56"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$57"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$58"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$59"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$60"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$61"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$62"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$63"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$64"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$65"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$66"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$67"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$68"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$69"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$70"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$71"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$72"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$73"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$74"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$75"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$76"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$77"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$78"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$79"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$80"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$81"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$82"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$83"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$84"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$85"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$86"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$87"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$88"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$89"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$90"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$91"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$92"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$93"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$94"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$95"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$96"/> <atom label="Professor$0"/> </tuple>
+   <tuple> <atom label="Class$97"/> <atom label="Professor$0"/> </tuple>
+   <types> <type ID="7"/> <type ID="6"/> </types>
+</field>
+
+<sig label="this/Assignment" ID="10" parentID="2">
+   <atom label="Assignment$0"/>
+</sig>
+
+<field label="associated_with" ID="11" parentID="10">
+   <tuple> <atom label="Assignment$0"/> <atom label="Class$97"/> </tuple>
+   <types> <type ID="10"/> <type ID="7"/> </types>
+</field>
+
+<field label="assigned_to" ID="12" parentID="10">
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$0"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$1"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$2"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$3"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$4"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$5"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$6"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$7"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$8"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$9"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$10"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$11"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$12"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$13"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$14"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$15"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$16"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$17"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$18"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$19"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$20"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$21"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$22"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$23"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$24"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$25"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$26"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$27"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$28"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$29"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$30"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$31"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$32"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$33"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$34"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$35"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$36"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$37"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$38"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$39"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$40"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$41"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$42"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$43"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$44"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$45"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$46"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$47"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$48"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$49"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$50"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$51"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$52"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$53"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$54"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$55"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$56"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$57"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$58"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$59"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$60"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$61"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$62"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$63"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$64"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$65"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$66"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$67"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$68"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$69"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$70"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$71"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$72"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$73"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$74"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$75"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$76"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$77"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$78"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$79"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$80"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$81"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$82"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$83"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$84"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$85"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$86"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$87"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$88"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$89"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$90"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$91"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$92"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$93"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$94"/> </tuple>
+   <tuple> <atom label="Assignment$0"/> <atom label="Student$95"/> </tuple>
+   <types> <type ID="10"/> <type ID="4"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$PolicyAllowsGrading_s" ID="13">
+   <tuple> <atom label="Student$96"/> </tuple>
+   <types> <type ID="5"/> </types>
+</skolem>
+
+<skolem label="$PolicyAllowsGrading_a" ID="14">
+   <tuple> <atom label="Assignment$0"/> </tuple>
+   <types> <type ID="10"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

@@ -1,0 +1,15 @@
+<project>
+    <property name="lib.dir" value="lib"/>
+
+    <target name="clean">
+        <delete dir="ant_bin"/>
+    </target>
+
+    <target name="compile_core">
+        <path id="classpath">
+            <fileset dir="${lib.dir}" includes="**/*.jar"/>
+        </path>
+        <mkdir dir="ant_bin/classes/core"/>
+        <javac includeantruntime="false" srcdir="src/core" destdir="ant_bin/classes/core" classpathref="classpath"/>
+    </target>
+</project>

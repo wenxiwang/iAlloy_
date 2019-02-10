@@ -1,0 +1,32 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run Acyclic for 55" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/fullTree/v5/fullTree.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Node" ID="4" parentID="2">
+   <atom label="Node$0"/>
+</sig>
+
+<field label="left" ID="5" parentID="4">
+   <tuple> <atom label="Node$0"/> <atom label="Node$0"/> </tuple>
+   <types> <type ID="4"/> <type ID="4"/> </types>
+</field>
+
+<field label="right" ID="6" parentID="4">
+   <types> <type ID="4"/> <type ID="4"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+</instance>
+
+</alloy>

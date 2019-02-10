@@ -1,0 +1,9 @@
+fact:Acyclic -467757711
+fact:Reachable -1267725824
+pred:Balanced 1668815846
+pred:HasAtMostOneChild -1892044435
+pred:RepOk -1701532690
+pred:Sorted -472459462
+run:RepOk -191953134
+sig:BinaryTree -1020519987
+sig:Node -694816338

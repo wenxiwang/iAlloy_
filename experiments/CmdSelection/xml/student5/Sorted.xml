@@ -1,0 +1,54 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run Sorted for 18" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/student5/v1/student5.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/List" ID="4" parentID="2">
+   <atom label="List$0"/>
+</sig>
+
+<field label="header" ID="5" parentID="4">
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<sig label="this/Node" ID="6" parentID="2">
+</sig>
+
+<field label="link" ID="7" parentID="6">
+   <types> <type ID="6"/> <type ID="6"/> </types>
+</field>
+
+<field label="elem" ID="8" parentID="6">
+   <types> <type ID="6"/> <type ID="1"/> </types>
+</field>
+
+<sig label="this/True" ID="9" parentID="10" one="yes">
+   <atom label="True$0"/>
+</sig>
+
+<sig label="this/False" ID="11" parentID="10" one="yes">
+   <atom label="False$0"/>
+</sig>
+
+<sig label="this/Boolean" ID="10" parentID="2" abstract="yes">
+</sig>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$Sorted_This" ID="12">
+   <tuple> <atom label="List$0"/> </tuple>
+   <types> <type ID="4"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

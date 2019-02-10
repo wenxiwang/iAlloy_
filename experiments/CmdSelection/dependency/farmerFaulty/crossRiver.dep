@@ -1,0 +1,11 @@
+fact:eating 1383812945
+fact:initialState -1881086719
+fact:stateTransition -1681876228
+pred:crossRiver -1697587238
+run:crossRiver -484458787
+sig:Chicken 2067713128
+sig:Farmer -1407300216
+sig:Fox -347374462
+sig:Grain -1834953874
+sig:Object 1638440187
+sig:State -1501816009

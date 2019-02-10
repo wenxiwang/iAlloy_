@@ -1,0 +1,11 @@
+fact:CardinalityConstraints 1302929348
+fact:f -804750806
+pred:Contains -654280970
+pred:Loop -282332553
+pred:RepOk 475056176
+pred:Sorted -9613532
+run:Contains 27535945
+sig:Boolean 1075156199
+sig:List -502413943
+sig:Node 1334663969
+sig:True -1345409270

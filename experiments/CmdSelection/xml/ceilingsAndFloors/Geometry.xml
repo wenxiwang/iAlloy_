@@ -1,0 +1,178 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="7" command="Run Geometry for 60" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/ceilingsAndFloors/v1/ceilingsAndFloors.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Platform" ID="4" parentID="2">
+   <atom label="Platform$0"/>
+   <atom label="Platform$1"/>
+   <atom label="Platform$2"/>
+   <atom label="Platform$3"/>
+   <atom label="Platform$4"/>
+   <atom label="Platform$5"/>
+   <atom label="Platform$6"/>
+   <atom label="Platform$7"/>
+   <atom label="Platform$8"/>
+   <atom label="Platform$9"/>
+   <atom label="Platform$10"/>
+   <atom label="Platform$11"/>
+   <atom label="Platform$12"/>
+   <atom label="Platform$13"/>
+   <atom label="Platform$14"/>
+   <atom label="Platform$15"/>
+   <atom label="Platform$16"/>
+   <atom label="Platform$17"/>
+   <atom label="Platform$18"/>
+   <atom label="Platform$19"/>
+   <atom label="Platform$20"/>
+   <atom label="Platform$21"/>
+   <atom label="Platform$22"/>
+   <atom label="Platform$23"/>
+   <atom label="Platform$24"/>
+   <atom label="Platform$25"/>
+   <atom label="Platform$26"/>
+   <atom label="Platform$27"/>
+   <atom label="Platform$28"/>
+   <atom label="Platform$29"/>
+   <atom label="Platform$30"/>
+   <atom label="Platform$31"/>
+   <atom label="Platform$32"/>
+   <atom label="Platform$33"/>
+   <atom label="Platform$34"/>
+   <atom label="Platform$35"/>
+   <atom label="Platform$36"/>
+   <atom label="Platform$37"/>
+   <atom label="Platform$38"/>
+   <atom label="Platform$39"/>
+   <atom label="Platform$40"/>
+   <atom label="Platform$41"/>
+   <atom label="Platform$42"/>
+   <atom label="Platform$43"/>
+   <atom label="Platform$44"/>
+   <atom label="Platform$45"/>
+   <atom label="Platform$46"/>
+   <atom label="Platform$47"/>
+   <atom label="Platform$48"/>
+   <atom label="Platform$49"/>
+   <atom label="Platform$50"/>
+   <atom label="Platform$51"/>
+   <atom label="Platform$52"/>
+   <atom label="Platform$53"/>
+   <atom label="Platform$54"/>
+</sig>
+
+<sig label="this/Man" ID="5" parentID="2">
+   <atom label="Man$0"/>
+   <atom label="Man$1"/>
+   <atom label="Man$2"/>
+   <atom label="Man$3"/>
+   <atom label="Man$4"/>
+   <atom label="Man$5"/>
+   <atom label="Man$6"/>
+   <atom label="Man$7"/>
+   <atom label="Man$8"/>
+   <atom label="Man$9"/>
+   <atom label="Man$10"/>
+   <atom label="Man$11"/>
+   <atom label="Man$12"/>
+   <atom label="Man$13"/>
+   <atom label="Man$14"/>
+   <atom label="Man$15"/>
+   <atom label="Man$16"/>
+   <atom label="Man$17"/>
+   <atom label="Man$18"/>
+   <atom label="Man$19"/>
+   <atom label="Man$20"/>
+   <atom label="Man$21"/>
+   <atom label="Man$22"/>
+   <atom label="Man$23"/>
+   <atom label="Man$24"/>
+   <atom label="Man$25"/>
+   <atom label="Man$26"/>
+   <atom label="Man$27"/>
+   <atom label="Man$28"/>
+   <atom label="Man$29"/>
+</sig>
+
+<field label="ceiling" ID="6" parentID="5">
+   <tuple> <atom label="Man$0"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$1"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$2"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$3"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$4"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$5"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$6"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$7"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$8"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$9"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$10"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$11"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$12"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$13"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$14"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$15"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$16"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$17"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$18"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$19"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$20"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$21"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$22"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$23"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$24"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$25"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$26"/> <atom label="Platform$54"/> </tuple>
+   <tuple> <atom label="Man$27"/> <atom label="Platform$53"/> </tuple>
+   <tuple> <atom label="Man$28"/> <atom label="Platform$52"/> </tuple>
+   <tuple> <atom label="Man$29"/> <atom label="Platform$52"/> </tuple>
+   <types> <type ID="5"/> <type ID="4"/> </types>
+</field>
+
+<field label="floor" ID="7" parentID="5">
+   <tuple> <atom label="Man$0"/> <atom label="Platform$46"/> </tuple>
+   <tuple> <atom label="Man$1"/> <atom label="Platform$10"/> </tuple>
+   <tuple> <atom label="Man$2"/> <atom label="Platform$46"/> </tuple>
+   <tuple> <atom label="Man$3"/> <atom label="Platform$10"/> </tuple>
+   <tuple> <atom label="Man$4"/> <atom label="Platform$9"/> </tuple>
+   <tuple> <atom label="Man$5"/> <atom label="Platform$10"/> </tuple>
+   <tuple> <atom label="Man$6"/> <atom label="Platform$0"/> </tuple>
+   <tuple> <atom label="Man$7"/> <atom label="Platform$0"/> </tuple>
+   <tuple> <atom label="Man$8"/> <atom label="Platform$9"/> </tuple>
+   <tuple> <atom label="Man$9"/> <atom label="Platform$0"/> </tuple>
+   <tuple> <atom label="Man$10"/> <atom label="Platform$24"/> </tuple>
+   <tuple> <atom label="Man$11"/> <atom label="Platform$53"/> </tuple>
+   <tuple> <atom label="Man$12"/> <atom label="Platform$48"/> </tuple>
+   <tuple> <atom label="Man$13"/> <atom label="Platform$27"/> </tuple>
+   <tuple> <atom label="Man$14"/> <atom label="Platform$1"/> </tuple>
+   <tuple> <atom label="Man$15"/> <atom label="Platform$53"/> </tuple>
+   <tuple> <atom label="Man$16"/> <atom label="Platform$53"/> </tuple>
+   <tuple> <atom label="Man$17"/> <atom label="Platform$53"/> </tuple>
+   <tuple> <atom label="Man$18"/> <atom label="Platform$19"/> </tuple>
+   <tuple> <atom label="Man$19"/> <atom label="Platform$0"/> </tuple>
+   <tuple> <atom label="Man$20"/> <atom label="Platform$0"/> </tuple>
+   <tuple> <atom label="Man$21"/> <atom label="Platform$1"/> </tuple>
+   <tuple> <atom label="Man$22"/> <atom label="Platform$0"/> </tuple>
+   <tuple> <atom label="Man$23"/> <atom label="Platform$52"/> </tuple>
+   <tuple> <atom label="Man$24"/> <atom label="Platform$26"/> </tuple>
+   <tuple> <atom label="Man$25"/> <atom label="Platform$27"/> </tuple>
+   <tuple> <atom label="Man$26"/> <atom label="Platform$52"/> </tuple>
+   <tuple> <atom label="Man$27"/> <atom label="Platform$52"/> </tuple>
+   <tuple> <atom label="Man$28"/> <atom label="Platform$7"/> </tuple>
+   <tuple> <atom label="Man$29"/> <atom label="Platform$54"/> </tuple>
+   <types> <type ID="5"/> <type ID="4"/> </types>
+</field>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+</instance>
+
+</alloy>

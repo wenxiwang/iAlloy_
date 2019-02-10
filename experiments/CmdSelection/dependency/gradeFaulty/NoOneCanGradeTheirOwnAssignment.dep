@@ -1,0 +1,8 @@
+assert:NoOneCanGradeTheirOwnAssignment -1701686005
+check:NoOneCanGradeTheirOwnAssignment 1361192008
+pred:PolicyAllowsGrading -869659013
+sig:Assignment -1764630632
+sig:Class 38510234
+sig:Person -1170612256
+sig:Professor -986577210
+sig:Student 1530521554

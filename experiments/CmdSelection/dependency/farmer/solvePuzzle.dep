@@ -1,0 +1,15 @@
+fact:eating 1383812945
+fact:initialState -1881086719
+fact:stateTransition 776139500
+fun:ord/last 1813092262
+fun:ord/next -1405853663
+pred:crossRiver 911569740
+pred:solvePuzzle 879174032
+run:solvePuzzle -644403706
+sig:Chicken 277635234
+sig:Farmer -1407300216
+sig:Fox -347374462
+sig:Grain -1834953874
+sig:Object 1638440187
+sig:Ord -1002426395
+sig:State -1501816009

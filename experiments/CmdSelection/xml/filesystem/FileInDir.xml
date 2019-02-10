@@ -1,0 +1,45 @@
+<alloy builddate="2018-09-11T21:42:27.068Z">
+
+<instance bitwidth="4" maxseq="4" command="Check FileInDir" filename="/home/wenxiw/CmdSelect/Alloy_parser/experiments/CmdSelection/models/filesystem/v5/filesystem.als">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Root" ID="4" parentID="5" one="yes">
+   <atom label="Root$0"/>
+</sig>
+
+<sig label="this/Dir" ID="5" parentID="6">
+   <atom label="Dir$0"/>
+</sig>
+
+<field label="contents" ID="7" parentID="5">
+   <tuple> <atom label="Root$0"/> <atom label="Dir$0"/> </tuple>
+   <tuple> <atom label="Dir$0"/> <atom label="Dir$0"/> </tuple>
+   <types> <type ID="5"/> <type ID="6"/> </types>
+</field>
+
+<sig label="this/File" ID="8" parentID="6" lone="yes">
+   <atom label="File$0"/>
+</sig>
+
+<sig label="this/Object" ID="6" parentID="2" abstract="yes">
+</sig>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+<skolem label="$FileInDir_f" ID="9">
+   <tuple> <atom label="File$0"/> </tuple>
+   <types> <type ID="8"/> </types>
+</skolem>
+
+</instance>
+
+</alloy>

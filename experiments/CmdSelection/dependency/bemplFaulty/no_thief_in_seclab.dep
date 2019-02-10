@@ -1,0 +1,8 @@
+assert:no_thief_in_seclab -1555034361
+check:no_thief_in_seclab 1795057055
+pred:CanEnter 1693333787
+sig:Key 1636557147
+sig:Person 1082895715
+sig:Researcher 418494365
+sig:Room 1845568600
+sig:secure_lab -590586770

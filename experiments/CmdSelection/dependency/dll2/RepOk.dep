@@ -1,0 +1,9 @@
+fact:Acyclic 1766395340
+fact:Reachable 1450960447
+pred:ConsistentPreAndNxt 245593210
+pred:RepOk 1530340039
+pred:Sorted -11019263
+pred:UniqueElem 1975253009
+run:RepOk -191953128
+sig:DLL -745676875
+sig:Node -1159485476
